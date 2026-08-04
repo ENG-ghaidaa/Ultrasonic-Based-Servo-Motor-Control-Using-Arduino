@@ -45,3 +45,4 @@ The servo motor rotates approximately half a turn when an object approaches.
 The servo motor rotates to its maximum angle when an object is detected.
 
 When the object moves farther than 15 cm, the servo motor automatically returns to the initial position (0°) in all experiments.
+<img width="499" height="272" alt="image" src="https://github.com/user-attachments/assets/4dd19207-043c-4578-b103-b88c971db205" />
