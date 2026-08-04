@@ -1,0 +1,11 @@
+// Change the activation distance
+const int DISTANCE_THRESHOLD = 15; // 15 cm instead of 10 cm
+
+...
+
+// Change the servo angle
+if (distance_cm <= DISTANCE_THRESHOLD) {
+    servo.write(45);   // Rotate to 45°
+} else {
+    servo.write(0);    // Return to 0°
+}
